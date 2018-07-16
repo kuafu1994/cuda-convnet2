@@ -1,0 +1,1 @@
+python convnet.py --data-path /dataset --data-provider image --gpu 0 --layer-def ./layers/layers-imagenet-1gpu.cfg --layer-params ./layers/layer-params-imagenet-1gpu.cfg --save-file alexnet_model --save-path ./model --test-range 1000-1016 --train-range 0-417
